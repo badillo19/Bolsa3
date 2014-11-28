@@ -1,0 +1,391 @@
+/*color azul base: #3496F7*/
+/*color base fuentes: #64696E*/
+body {
+	background-color: #DCDDDE;
+}
+
+p, span, a {
+	display: block;
+	font-size: .9em;
+	color: #64696E;
+}
+
+a {
+	text-decoration: none!important;
+}
+
+.asig {
+	color: #3496F7;
+}
+
+.sep {
+	width: 100%;
+	height: 2em;
+}
+
+.sep2 {
+	width: 100%;
+	height: 1em;
+}
+
+.boton_e {
+
+}
+
+.lin_sep {
+	margin: 1em auto;
+	width: 90%;
+	height: 1px;
+	background-color: #DCDDDE;
+}
+
+.sep_m {
+	width: 100%;
+	height: 1em;
+}
+
+#carousel-example-generic p {
+	color: #FFFFFF;	
+}
+
+/*Cavecera*/
+#menu_ppal {
+	margin-left: 2em;
+}
+
+#logo_siglo {
+	margin-left: 2em;
+	width: 15em;
+	height: 3.2em;
+}
+
+/*Columna izquierda*/
+#caja_informativa {
+	margin-top: 7%;
+	border-radius: 3px;
+	background: #FFFFFF;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+/*Estilo tempora quitarlo despues de poner el carrucel
+de imagenes en de la columna izquierda de la página
+registro_datos_usuario*/
+#temporal_img {
+	border-bottom: 1px solid #CCC;
+	width: 100%;
+	height: 11em;
+	background: #CDE3FA;
+}
+
+#temporal_img > img {
+	width: 100%;
+	height: 100%;
+}
+
+#caja_parrafo > span:first-child {
+	display: block;
+	margin: 3em 0 1em 0;
+	font-size: 1.1em;
+	color: #3496F7;
+}
+
+#caja_parrafo > p {
+	margin-bottom: 3em;
+}
+
+/*Columna derecha*/
+#caja_formulario {
+	border-radius: 3px;
+	margin-top: 7%;
+	margin-bottom: 10%;
+	background-color: #FFFFFF;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.separador_campos {
+	margin: 2em 0 1em 0;
+	width: 50%;
+	background-color: #3496F7;
+}
+
+.separador_campos > span {
+	display: block;
+	padding: .5em 2em .5em 1em;
+	color: #FFFFFF;
+}
+
+.in_file {
+	position: relative;
+	margin: 2em 0;
+	border: 1px solid #3496F7;
+	width: 100%;
+	height: 8em;
+}
+
+.in_file > input[type = file] {
+	position: absolute;
+	top: 0;
+	left: ;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	z-index: 2;
+}
+
+.in_file > img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+#caja_formulario button {
+	margin-bottom: 2em;
+}
+
+#caja_formulario > form > div.row > div:nth-child(2) > input[type = text] {
+	margin: .5em 0 1em 0;
+}
+
+#caja_formulario > form > div:last-child > div > button {
+	margin: 2em 0;
+}
+
+#pie_pagina {
+	margin-top: 4em;
+	height: 15em;
+	background: #FFFFFF;
+}
+
+#pie_pagina_2 {
+	height: 15em;
+}
+
+/*Página de consultas*/
+/*Columna izquierda*/
+#filtro_grados {
+	margin-top: 7%;
+	border-radius: 3px;
+	background: #FFFFFF;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+#listas_especialidades > div > label {
+	display: block;
+	margin: 1em 0;
+	padding: 1em 0 1em 2em;
+	background-color: #3496F7;
+	color: #FFFFFF;
+	font-weight: lighter;
+}
+
+#listas_especialidades > div > a {
+	display: block;
+	margin-left: 2em;
+	padding: .5em;
+	-webkit-transition: margin-left .5s;
+	-moz-transition: margin-left .5s;
+	transition: margin-left .5s;
+}
+
+#listas_especialidades > div > a:hover {
+	margin-left: .5em;
+}
+
+/*Columna dercha*/
+/* página de consulta*/
+#caja_consulta {
+	margin-top: 3%;
+	margin-bottom: 4em;
+	border-radius: 3px;
+	background-color: #FFFFFF;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+#indices {
+	margin-top: 2em;
+}
+
+#indices > a {
+	margin: .2em;
+	border: 1px solid #3496F7;
+	border-radius: 2px;
+	padding: .5em;
+	-moz-transition: background-color .5s;
+	-webkit-transition: background-color .5s;
+	transition: background-color .5s;
+}
+
+#indices > a:hover {
+	background-color: #3496F7;
+}
+
+#foto {
+	width: 100%;
+	height: 5em;
+	border: 1px solid #3496F7;
+	height: 7em;
+}
+
+#foto > img {
+	width: 100%;
+	height: 100%;
+}
+
+.datos_persona > label {
+	padding-left: 8%;
+	display: block;
+	font-weight: lighter;
+}
+
+.ref_info {
+	width: 3em;
+	height: 3em;
+}
+
+#div_indices {
+	overflow: hidden;
+	margin-bottom: 15%;
+}
+
+
+#div_indices > a {
+	padding: .5em;
+	background-color: #FFFFFF;
+	margin-left: .5em;
+	float: right;
+}
+
+/*Página promocional*/
+#seccion_descripcion {
+	background-color: #FFFFFF;
+}
+
+.lin_sep_dec {
+	margin: .5em auto;
+	width: 90%;
+	height: 1px;
+	background-color: #DCDDDE;
+}
+
+#seccion_descripcion > div > h3 {
+	margin-top: 15%;
+}
+
+#secion_img {
+	background-color: #FFFFFF;
+}
+
+#titulo_seccion_actualizaciones {
+	margin-top: 10%;
+}
+
+.caja_imagen {
+	margin-top: 10%;
+	margin-bottom: 50%;
+	height: 20em;
+	background-color: #BDE0F2;
+	box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+}
+
+#modal_registro form > input[type = text], #modal_login form > input[type = text] {
+	margin: .2em 0 1em 0;
+}
+
+#sec_redes_sociales {
+	margin-bottom: 1em;
+	background-color: #DBF3FF;
+}
+
+#sec_redes_sociales > a > img {
+	margin: 1em .5em;
+	width: 2em;
+	height: 2em;
+	float: right;
+}
+
+
+.caja_cons_act {
+	border: 1px solid #DEDEDE;
+	margin: 2em 0 7% 15%;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background-color: #FFFFFF;
+	color: #64696E;
+	border-radius: 3px;
+}
+
+#secion_actualizciones {
+	background-color: #AFD9F0;
+}
+
+.foto_perf_act {
+	width: 8em;
+	height: 8em;
+}
+
+/*página de curriculum*/
+#info_basica {
+	border: 1px solid #428BCA;	
+	background-color: #FFFFFF;
+}
+
+#info_contacto > label:first-child {
+	margin: 7% 0 1em 0;
+}
+
+#info_contacto > span {
+	color: #2A6496;
+}
+
+.oculto {
+	display: none;
+}
+
+.bloque {
+	display: block;
+}
+
+/*Mensaje*/
+#caja_mensaje_ok {
+	overflow: hidden;
+	margin: 10% auto;
+	border-radius: 3px;
+	width: 70%;
+	background-color: #FFFFFF;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+#caja_mensaje_ok > h1{
+	margin: 1em 0 .5em 1em;
+	color: #428BCA;
+}
+
+#caja_mensaje_ok > p {
+	display: block;
+	margin: 0 auto 4em auto;
+	width: 90%;
+}
+
+#caja_mensaje_ok > a {
+	display: block;
+	width: 15em;
+	margin: 0 auto 4em auto;
+	border-radius: 2px;
+	padding: .7em;
+	background-color: #2A6496;
+	text-decoration: none;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.img_bolsa {
+	width: 100%;
+	height: 100%;
+}
+
+#menu_usuario {
+	margin: 0 5% 1em 0;
+	float: right;
+}
